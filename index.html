@@ -84,6 +84,12 @@
         .next a:hover{
             color: orangered;
         }
+        form{
+            box-shadow: 10px;
+        }
+        .submit:hover{
+            color: orangered;
+        }
     </style>
 </head>
 <body>
@@ -104,37 +110,40 @@
         <br>
         &ensp;<input type="text" name="" id="" placeholder="First name" class="texts" required>
         &ensp;<input type="text" name="" id="" placeholder="Last name" class="texts" required><br><br>
-        &ensp;<input type="text" name="" id="" placeholder="Email" class="texts" style="width: 95%;" required><br><br>
+        &ensp;<input type="email" name="" id="" placeholder="Email" class="texts" style="width: 95%;" required><br><br>
+        
+        &ensp; <input type="text" placeholder="Company" class="texts" required>
+        &ensp; <input type="text" name="" id="" placeholder="Current Position" class="texts" required><br><br>
         &ensp; <select name="batch" id="" class="texts" required>
-            <option value="">Batch year</option>
-            <option value="">2000</option>
-            <option value="">2001</option>
-            <option value="">2002</option>
-            <option value="">2003</option>
-            <option value="">2004</option>
-            <option value="">2005</option>
-            <option value="">2006</option>
-            <option value="">2007</option>
-            <option value="">2008</option>
-            <option value="">2009</option>
-            <option value="">2010</option>
-            <option value="">2011</option>
-            <option value="">2012</option>
-            <option value="">2013</option>
-            <option value="">2014</option>
-            <option value="">2015</option>
-            <option value="">2016</option>
-            <option value="">2017</option>
-            <option value="">2018</option>
-            <option value="">2019</option>
-            <option value="">2020</option>
-            <option value="">2021</option>
-            <option value="">2022</option>
+            <option value="">Batch</option>
+            <option value="">1996-2000</option>
+            <option value="">1997-2001</option>
+            <option value="">1998-2002</option>
+            <option value="">1999-2003</option>
+            <option value="">2000-2004</option>
+            <option value="">2001-2005</option>
+            <option value="">2002-2006</option>
+            <option value="">2003-2007</option>
+            <option value="">2004-2008</option>
+            <option value="">2005-2009</option>
+            <option value="">2006-2010</option>
+            <option value="">2007-2011</option>
+            <option value="">2008-2012</option>
+            <option value="">2009-2013</option>
+            <option value="">2010-2014</option>
+            <option value="">2011-2015</option>
+            <option value="">2012-2016</option>
+            <option value="">2013-2017</option>
+            <option value="">2014-2018</option>
+            <option value="">2015-2019</option>
+            <option value="">2016-2020</option>
+            <option value="">2017-2021</option>
+            <option value="">2018-2022</option>
 
         </select>
         
         &ensp;<select name="bran" id="" class="texts" required>
-            <option value="cse">Select your branch</option>
+            <option value="cse">Branch</option>
             <option value="CSE"> B.E. Computer Science & Engineering </option>
             <option value="cse"> B.E. Computer Science & Engineering( Artificial Intelligence & Machine Learning ) </option>
             <option value="cse"> B.E. Computer Science & Engineering ( Data Science ) </option>
@@ -146,9 +155,9 @@
                 <input type="radio" name="gen" id=""> female
                 <input type="radio" name="gen" id=""> others <br><br>
 
-        &ensp; Upload Resume    <input accept=".pdf, .doxs"  type="file" name="" id="" placeholder="resume" required>
+        &ensp; Upload Resume    <input accept=".pdf, .doxs"  type="file" name="" id="" placeholder="resume" >
         <br><br><br><br>
-        <input type="submit" name="" id="" value="Submit" style="position: absolute;left: 180px;" >
+        <input type="submit" name="" id="" value="Submit" style="position: absolute;left: 190px; background-color: beige; border: 0px solid white; " class="submit" >
         <br><br>
             
     </form>
@@ -156,7 +165,8 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <hr>
     <div class="next">
-    <a href="list.html" ><p>Members</p></a>
+    <a href="list.html" ><p>Alumni List</p></a>
+
     </div>
 </body>
 </html>
